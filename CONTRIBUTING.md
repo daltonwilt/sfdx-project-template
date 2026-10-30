@@ -44,14 +44,13 @@ By participating, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
    ```sh
    npm run lint
    npm test
-   npm run prettier:verify
    ```
 
 5. Write clear commit messages in the imperative mood, for example `Add datatable pagination`.
 
 ## Coding Guidelines
 
-- Follow the existing ESLint and Prettier configuration; do not disable rules without a reason.
+- Follow the existing ESLint configuration; do not disable rules without a reason.
 - Components should be reusable: expose configuration through `@api` properties instead of hard-coding values.
 - Respect CRUD, FLS, and sharing in Apex (for example, use `WITH USER_MODE` or `Security.stripInaccessible`).
 - Never commit org credentials, auth URLs, or `.env` files.

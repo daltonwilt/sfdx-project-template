@@ -27,6 +27,5 @@
 - [ ] `npm run lint` passes
 - [ ] `npm test` passes, and new or changed LWC code has Jest tests
 - [ ] Apex changes have test classes
-- [ ] `npm run prettier:verify` passes
 - [ ] Documentation is updated where needed
 - [ ] No credentials, auth URLs, or org-specific IDs are committed
