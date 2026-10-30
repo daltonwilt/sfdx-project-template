@@ -87,8 +87,6 @@ sf org open
 | `npm test`                   | Run LWC Jest unit tests                  |
 | `npm run test:unit:watch`    | Run Jest tests in watch mode             |
 | `npm run test:unit:coverage` | Run Jest tests with a coverage report    |
-| `npm run prettier`           | Format all source files                  |
-| `npm run prettier:verify`    | Check formatting without writing         |
 
 A pre-commit hook (Husky + lint-staged) lints and tests staged LWC files automatically.
 
